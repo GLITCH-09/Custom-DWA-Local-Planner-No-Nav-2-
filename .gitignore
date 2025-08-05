@@ -1,0 +1,11 @@
+.vscode/browse.vc.db
+dwa_local_planner/.vscode/browse.vc.db
+cat > .gitignore << EOL
+.vscode/
+**/.vscode/
+*.pyc
+__pycache__/
+build/
+install/
+log/
+EOL
